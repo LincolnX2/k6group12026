@@ -1,7 +1,7 @@
 import { sleep } from 'k6';
 import { CONFIG } from '../Configuration/config.js';
-import { login } from '../User Authentication/login.js';
-import { getProfile } from '../User Profile/getProfile.js';
+import { login } from '../UserAuth/login.js';
+import { getProfile } from '../UserProfile/getProfile.js';
 import { submitTestimonial } from '../Testimonials/createTestimonial.js';
 import { updateTestimonial } from '../Testimonials/updateTestimonial.js';
 import { deleteTestimonial } from '../Testimonials/deleteTestimonial.js';

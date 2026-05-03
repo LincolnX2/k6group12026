@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { check } from 'k6';
 import { CONFIG } from '../Configuration/config.js';
-import { login } from '../User Authentication/login.js';
+import { login } from '../UserAuth/login.js';
 
 export function getProfile(token) {
   console.log('getProfile function called successfully');
