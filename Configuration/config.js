@@ -4,7 +4,7 @@ import { LOGIN_PAYLOAD, TESTIMONIAL_PAYLOAD, TESTIMONIAL_UPDATE_PAYLOAD } from '
 
 export const CONFIG = {
   BASE_URL: 'https://ndosiautomation.co.za',
-  LOGIN_ENDPOINT: 'https://www.ndosiautomation.co.za/APIDEV/login', // Updated to full URL, adjust if different
+  LOGIN_ENDPOINT: 'https://www.ndosiautomation.co.za/APIDEV/login', // Updated to full URL
   PROFILE_ENDPOINT: 'https://www.ndosiautomation.co.za/APIDEV/profile',
   TESTIMONIAL_ENDPOINT: 'https://www.ndosiautomation.co.za/APIDEV/testimonials',
   TESTIMONIAL_APPROVED_ENDPOINT_BASE: 'https://www.ndosiautomation.co.za/APIDEV/admin/testimonials',
